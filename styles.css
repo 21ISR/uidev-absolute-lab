@@ -1,0 +1,131 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f0f8ff;
+}
+
+.koala {
+  position: relative;
+  width: 300px;
+  height: 400px;
+}
+
+.body {
+  position: absolute;
+  width: 200px;
+  height: 250px;
+  background-color: #5a5a5a;
+  border-radius: 100px 100px 80px 80px;
+  top: 150px;
+  left: 50px;
+}
+
+.head {
+  position: absolute;
+  width: 160px;
+  height: 180px;
+  background-color: #4a4a4a;
+  border-radius: 90px;
+  top: 80px;
+  left: 70px;
+}
+
+.ear-left {
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  background-color: #3a3a3a;
+  border-radius: 50%;
+  top: 40px;
+  left: 60px;
+  z-index: -1;
+}
+
+.ear-right {
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  background-color: #3a3a3a;
+  border-radius: 50%;
+  top: 40px;
+  left: 170px;
+  z-index: -1;
+}
+
+.eye-left {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  background-color: #000;
+  border-radius: 50%;
+  top: 110px;
+  left: 95px;
+}
+
+.eye-right {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  background-color: #000;
+  border-radius: 50%;
+  top: 110px;
+  left: 175px;
+}
+
+.nose {
+  position: absolute;
+  width: 50px;
+  height: 40px;
+  background-color: #2a2a2a;
+  border-radius: 30px 30px 40px 40px;
+  top: 140px;
+  left: 125px;
+}
+
+.mouth {
+  position: absolute;
+  width: 40px;
+  height: 20px;
+  border-bottom: 8px solid #000;
+  border-radius: 50%;
+  top: 170px;
+  left: 130px;
+  transform: rotate(10deg);
+}
+
+.arm-left {
+  position: absolute;
+  width: 60px;
+  height: 80px;
+  background-color: #4a4a4a;
+  border-radius: 30px 20px 20px 30px;
+  top: 220px;
+  left: 30px;
+  transform: rotate(-20deg);
+}
+
+/* Лапы коалы (передняя правая) */
+.arm-right {
+  position: absolute;
+  width: 60px;
+  height: 80px;
+  background-color: #4a4a4a;
+  border-radius: 20px 30px 30px 20px;
+  top: 220px;
+  left: 210px;
+  transform: rotate(20deg);
+}
+
+/* Хвост коалы */
+.tail {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  background-color: #5a5a5a;
+  border-radius: 50%;
+  top: 280px;
+  left: 130px;
+}
